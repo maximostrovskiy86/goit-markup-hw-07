@@ -371,7 +371,7 @@
     <div class="modal">
         <button class="modal__close" type="button" data-modal-close><span class="modal__item">&#10005;</span></button>
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-form" name="modal-form" autocomplete="off">
+        <form action="#" method="GET" class="modal-form" name="modal-form" autocomplete="off">
             <label class="modal-form__field">
                 <span class="modal-form__label">Имя</span>
                 <input type="text" class="modal-form__input" name="name"/>
@@ -381,14 +381,14 @@
             </label>
             <label class="modal-form__field">
                 <span class="modal-form__label">Телефон</span>
-                <input type="text" class="modal-form__input" name="tel"/>
+                <input type="tel" class="modal-form__input" name="tel"/>
                 <svg class="modal-form__icon" width="13" height="13">
                     <use href="./images/sprite.svg#icon-tel-modal"></use>
                 </svg>
             </label>
             <label class="modal-form__field">
                 <span class="modal-form__label">Почта</span>
-                <input type="text" class="modal-form__input" name="email"/>
+                <input type="email" class="modal-form__input" name="email"/>
                 <svg class="modal-form__icon" width="15" height="12">
                     <use href="./images/sprite.svg#icon-email-modal"></use>
                 </svg>
